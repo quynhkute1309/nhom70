@@ -62,6 +62,7 @@ function layMonAn($conn) {
                 <td>Tên món:</td>
                 <td>
                      <select name="tenmon" >
+                         <option value=''>Nhập món ăn</option>
                          <?php
                             $layMonAn = layMonAn($conn);
                             foreach ($layMonAn as $monAn) {
