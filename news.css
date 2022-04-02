@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1250px;
+    height: auto;
+    background: #F3F0D7;
+}
+#banner {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+#main {
+    width: 1250px;
+    margin: auto 45px;
+}
+#baiviet {
+    width: 969px;
+    height: 800px;
+    float: left;
+}
+#main .post ul {
+    float: left;
+    width: 281px;
+    max-height: 500px;
+    line-height: 1.4;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid darkgreen;
+    box-shadow: 0 4px 6px 0 darkgreen, 0 4px 6px 0 darkgreen;
+}
+#main .post h3 a {
+    color: darkgreen;
+    text-transform: uppercase;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-decoration: none;
+}
+#main .post h3 {
+    width: 281px;
+    height: 50px;
+    margin: 0px;
+}
+#main .post a img {
+    max-width: 281px;
+    height: 166px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#main .post a img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#main .post .desc {
+    width: 281px;
+    height: 80px;
+    color: black;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+#main .post h6{
+    text-transform: uppercase;
+    color: darkgreen;
+    margin: 10px;
+    float: right;
+}
+#search {
+    width: 280px;
+    float: right;
+    background:darksalmon;
+}
+#bttop {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(77, 184, 77);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border: none;
+}

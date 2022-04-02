@@ -1,0 +1,120 @@
+
+    
+    #gioithieu {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        line-height: 1;
+        margin-bottom: 2%;;
+        margin-right:200px;
+        margin-left: 200px;
+        margin-top: 150px;
+    }
+
+    .nutmau {
+        text-align: center;
+        margin-top: -100px;
+        
+    }
+
+    .nutmau button {
+    width: 15px; 
+    height: 15px;
+    margin: 10px;
+    border-radius: 50%;
+
+    }
+
+    .float-contact {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 9999;
+    }
+    .datbanngay {
+        background: rgb(0,0,0,0);
+        border: none;
+        padding: 0 18px;
+        display: block;
+        margin-bottom: 6px;
+        }
+    .chat-zalo {
+    background: rgb(0,0,0,0);
+    border: none;
+    padding: 0 18px;
+    display: block;
+    margin-bottom: 6px;
+    }
+    .chat-face {
+        background: rgb(0,0,0,0);
+        border: none;
+        padding: 0 18px;
+        display: block;
+        margin-bottom: 6px;
+        }
+    }
+   
+    .chat-zalo a, .chat-face a{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    }
+    #baiviet .tintuc {
+        margin-left: 45px;
+        width: 800px;
+    }
+    video {
+        margin-left: 50px;
+        width:380px;
+        height:300px;
+    }
+    #baiviet .tintuc ul{
+        margin:0;
+        padding: 0;
+    }
+    #baiviet .tintuc ul li {
+        list-style: none;
+        clear: left;
+        float:left;
+        margin-bottom: 15px;
+    }
+    #baiviet .tintuc ul li h3 a{
+        color: rgb(9, 185, 230);
+    }
+    #baiviet .tintuc ul li img {
+        width: 150px;
+        height: 150px;
+        float: left;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    #baiviet .tintuc ul li img:hover{
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
+    }
+    #baiviet .tintuc ul li .desc{
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    #baiviet .tintuc ul li .desc p {
+        margin: 0px;
+    }
+    #bttop {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(77, 184, 77);
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        border: none;
+    }
+    footer{
+        clear: left;
+    }
+    

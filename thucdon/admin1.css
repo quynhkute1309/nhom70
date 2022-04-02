@@ -1,0 +1,79 @@
+
+
+
+body{
+  font-family:  Tahoma ;
+  font-size: 15px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: antiquewhite;
+}
+#header{
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+  background-color:  #27a365;
+  color: rgb(32, 8, 8);
+  height: auto ;
+  float: left;
+  text-align: center;
+ 
+}
+
+#header ul li .logo img {
+  display: block;
+  width: 250px ;
+  margin: 0px ;
+}
+
+#header ul li {
+  font-size: 20px ;
+  color: #f1f1f1;
+  display: inline-table;
+  width: 250px;
+  height: 0px;
+  line-height: 40px;
+  position: relative;
+}
+#header ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+#header ul li a:hover {
+  background: rgba(255, 255, 255, 0.836);
+  color: rgb(0, 0, 0);
+}
+
+#bttop {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(77, 184, 77, 0.801);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed ;
+  bottom: 40px;
+  right: 20px;
+  border: none;
+
+}
+.bang tr th{
+border-color: rgba(77, 184, 77, 0.801);
+text-align: center;
+font-size: 15px;
+margin-left: 325px;
+margin-top: 400px ;
+}
+.bang tr:nth-child(1){
+background-color: #eee;
+}
+.bang1{
+font-size: 20px;
+padding-left: 10px;
+text-decoration: none;
+border: none;
+}

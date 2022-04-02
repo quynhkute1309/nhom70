@@ -1,0 +1,76 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    color: #44e296;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+}
+
+body {
+    background-color: #F3F0D7;
+    font-size: 13px;
+}
+
+#main {
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    left: 300px;
+    top: 300px;
+    z-index: 2;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.363);
+}
+
+#anh1 {
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    z-index: 1;
+}
+
+#one {
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    right: 300px;
+    top: 1000px;
+    z-index: 2;
+}
+
+#anh2 {
+    position: absolute;
+    left: 300px;
+    top: 900px;
+    z-index: 1;
+}
+
+#two {
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    left: 300px;
+    top: 1700px;
+    z-index: 2;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.363);
+}
+
+#anh3 {
+    position: absolute;
+    right: 300px;
+    top: 1600px;
+    z-index: 1;
+}

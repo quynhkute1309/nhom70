@@ -1,0 +1,21 @@
+
+footer{
+    position: relative;
+    width: 1300px;
+    height: 210px;
+    margin-top: 40px;
+    padding: 50px;
+    background: #111;
+}
+footer .container{
+    display: flex;
+   align-items: stretch;
+   justify-content: space-around;
+}
+.container{
+   color: rgb(255, 255, 255);
+}
+.link ul li a{
+   color:rgb(255, 255, 255)
+}
+

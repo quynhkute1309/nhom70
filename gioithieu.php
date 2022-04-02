@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu! Nhà hàng Món Việt</title>
+    <link rel="stylesheet" href="gioithieu1.css">
+    <link rel="stylesheet" href="header1.css">
+    <link rel="stylesheet" href="footer1.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style> 
+    header ul li a{
+        font-size:16px
+    }
+</style>
+</head>
+<body>
+<header>
+        
+        <ul>  
+            <li><p class="logo" ><img style="height:75px;width:75px"src="images/logo1-removebg-preview.png" ></p></li>
+            <li><a class="home" href="index.php"><img src="images/home.png" alt="Trang chủ"></a></li>  
+            <li><a href="gioithieu.php">Giới thiệu</a></li>
+            <li><a class="menu" href="menu1.php">Menu</a></li>   
+            <li><a href="news.php">Tin tức</a></li>
+            <li><a href="datban.php">Đặt tiệc</a></li>
+            <li><a href="trang.php">Bộ sưu tập</a></li>
+            <li><a href="event.html">Khuyến mãi</a></li>
+            <li><a href="liên hệ 1.php">Liên hệ</a></li>
+            <li>
+                <a class="menu">Hỗ Trợ</a>
+              <ul class="sub-nav">
+                 <li><a href="maps.html">Bản đồ</a></li>
+                 <li><a href="hotro.php">Hỗ trợ thêm</a></li>
+         </ul>
+    </header>
+
+    <center>
+        <h1>Ẩm thực Việt</h1>
+        <h1>Ấm lòng người Việt</h1>
+        <img src="image/line-h3.png" />
+    </center>
+   
+    <div id="main" data-aos="zoom-in" data-aos-duration="1500">
+        <h2>Món Việt</h2>
+        <h3><i>Nhà hàng ẩm thực truyền thống</i></h3>
+        <p>Món ăn truyền thống đã và đang là một phần không thể thiếu đối với mỗi người con Đất Việt. Là tinh hoa văn hóa gắn liền với lịch sử hàng nghìn năm dựng xây và phát triển. Ngày nay đời sống con người ngày càng đủ đầy no ấm, nhu cầu về ăn uống đã
+            chẳng còn đơn thuần, khác hẳn ngày xưa. Thế nhưng giữa muôn vàn sự lựa chọn ấy,ẩm thực truyền thống vẫn luôn giữ được chỗ đứng riêng cho mình bởi sự thân thuộc và gần gũi, chất lượng, Với lối kiến trúc độc đáo, tinh tế, đan xen giữa nét đẹp
+            truyền thống và hiện đại nhà hàng Món Việt đã đem lại cho thực khách những trải nghiệm tuyệt vời mà không nơi nào có được với không gian ấm cúng nhưng cũng không kém phần tinh tế sang trọng, phù hợp với những bữa tiệc gia đình và là một sự
+            lựa chọn tuyệt vời với những lần đãi tiệc hay họp mặt.</p>
+    </div>
+    <div id="anh1" data-aos="zoom-in-up" data-aos-duration="1500">
+        <img src="image/image1.jpg" width="600" height="400">
+    </div>
+    <div id="one" data-aos="fade-right" data-aos-duration="1500">
+        <h2>Chuyên gia ẩm thực</h2>
+        <h3><i>Anh Nguyễn Văn Minh_20 năm kinh nghiệm trong nghề</i></h3>
+        <p>Luôn mang trong mình tình yêu cùng những trăn trở, hoài bão với nền văn hóa ẩm thực truyền thống của Việt Nam, tìm cách gìn giữ và lan tỏa những giá trị truyền thống đang có nguy cơ bị mai một này</p>
+        <p>Các món ăn của anh làm ra chinh phục mọi giác quan bởi hương vị đậm chất Việt cùng cách bài trí tỉ mỉ, tinh tế và goid trọn cả tình yêu của người đầu bếp.</p>
+    </div>
+    <div id="anh2" data-aos="fade-left" data-aos-duration="1500">
+        <img src="image/anh2.jpg" width="600" height="400">
+    </div>
+
+    <div id="two" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Giá trị hương vị Việt</h2>
+        <p>Không chỉ ở lối kiến trúc, ẩm thực của nhà hàng cũng mang đậm nét truyền thống Việt Nam từ các món ăn dân gian mộc mạc, đến các món hải sản và đặc sản. Qua nghệ thuật chế biến tài tình của các đầu bếp, ẩm thực Món Việt luôn mang đến cho thực khách
+            những trải nghiệm mới mẻ, nhưng vẫn giữ được “chất” tinh hoa của hương vị Việt. Món Việt đề cao cũng như khắc hoạ rõ nét chân dung bức tranh ẩm thực truyền thống Việt Nam kết hợp đầy đủ hương vị của các vùng miền.</p>
+        <p>Chẳng cần phải đi đâu xa để tìm những hương vị xưa. Nếu bạn đang muốn trải nghiệm ẩm thực Bắc Trung Nam một cách trọn vẹn nhất thì tôi tin chắc rằng Món Việt sẽ là sự lựa chọn hoàn hảo của các bạn. Món ăn không chỉ được cảm nhận bằng vị giác mà
+            còn là tình cảm và giá trị cốt lõi sâu bên trong.</p>
+        <p>Hãy đến với chúng tôi để cùng lưu giữ tinh hoa ẩm thực Việt.</p>
+    </div>
+
+    <div id="anh3" data-aos="fade-down" data-aos-duration="1500">
+        <img src="image/image3.jpg" width="600" height="400">
+    </div>
+   
+    <script>
+        AOS.init();
+    </script>
+
+<footer>
+        <div class="container">
+    
+        <div class="tt">
+             <h2 style="color:white">Về Chúng Tôi</h2>
+            <p>Chúng tôi luôn cảm thấy vinh dự <br>
+            khi được phục vụ quý khách.Sự <br>
+            đánh giá tốt từ quý khách là niềm <br>
+            vui của chúng tôi.Chúng tôi cam <br>kết
+            đem đến cho quý khách phục <br>
+             vụ tốt nhất.</p>
+         </div>
+            <div class="link">
+                <h2 style="color:white">Đường Dẫn</h2>
+                <ul>
+					<li><a href="index.php">Trang Chủ</a></li>
+					<li><a href="gioithieu..php">Giới thiệu</a></li>
+					<li><a href="liên hệ 1.php">Liên Lạc</a></li>
+					<li><a href="hotro.php">Hỗ Trợ</a></li>
+					
+                </ul>
+            </div>
+    
+            <div class="contact">
+                <h2 style="color:white">Thông Tin Liên Hệ</h2>
+                <ul class="info">
+                    <li>
+                        79, Hồ Tùng Mậu,Mai Dịch, Cầu Giấy, Hà Nội
+                    </li>
+                    <li>
+                        <p>+84 123 969 696<br />+84 985 868 999</p>
+                    </li>
+                    <li>
+                        <p>nhahangviet@gmail.com</p>
+                   </li>
+    
+                </ul>
+            </div>
+    
+        </div>
+    </footer>
+
+</body>
+
+</html>

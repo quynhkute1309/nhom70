@@ -1,0 +1,72 @@
+body{
+    background: #f3f0d7;
+    color: #39a388;
+    margin: 0 auto;
+	padding: 0;
+    width: 100%;
+}
+header {
+    background-color: #ffffff00;
+    color: #ff000000;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    color: rgb(7, 0, 0);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: large;
+    text-align: center;
+}
+nav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: right;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.wrap
+{
+    width: 100%; /* kích thước chiều rộng trang web */
+    float: left;/* canh div từ trái sang */
+}
+
+h2{
+	font-family:  arial , Helvetica, sans-serif;
+	text-align: center;
+	font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.form-group{
+	width: 30%; /* kích thước chiều rộng trang web */
+    float: left;/* canh div từ trái sang */
+	margin: 15px;
+}
+.form-group input{
+  background-color:transparent;
+  color: #000;
+  margin-top:10px;
+  font-size: 20px;
+  height: 40px;
+  padding: 0 16px;
+  width: 95%;}
+  
+.button .choose {
+  background-color: #39a388;
+  border:none;
+  color: #fff;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin-top:10px;
+  margin-left: 25%;
+}

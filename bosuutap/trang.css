@@ -1,0 +1,129 @@
+
+h1, h3 {
+	text-align: center;
+	}
+h1{
+	color: #C80C0C;
+	font-size:55px;
+}
+h3{
+	padding:25px;
+    background-clip:padding-box;
+	border:0px solid white;
+	box-shadow: 5px 5px 5px white inset;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:22px;
+	}
+h4{
+	color:#000000;
+	font-size:18px;
+}
+body {
+	 background-color:#F3F0D7;
+	}
+.text-center{
+  text-align: center;
+ 
+}
+}
+.slide-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 60px;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+}
+.prev{
+left: 0;
+}
+
+.prev:hover,.next:hover {
+  background-color: #EDF493 ;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+	text-align:center;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+/*---------TEAM*/
+.team{
+	background-color: black;
+}
+.team-items{
+	padding:10px;
+	position: relative;
+	text-align:center;
+	display: inline-block;
+    margin-right: 40px;
+	margin-left: 40px;
+    overflow: hidden;
+	
+}
+.team-items img{
+	width: 200px;
+    height: 200px;
+	border-radius: 20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	transition: all 0.5s ease-in-out;
+}
+.team-items:hover .team-items-text{
+	background-color: #20CCA1;
+}
+.team-items:hover img{
+	transform: scale(1.1);
+	transform: all 0.5s ease-in-out;
+}
+.team-items-text{
+	position:absolute;
+	padding: 0px 0;
+	right: 5px;
+	left:5px;
+	bottom:0;
+	background-color: #F5EFB7;
+	text-align:center;
+	border-radius:20px;
+	transform: translateY(0%);
+	transition: all 0.5s ease-in-out;
+}
+

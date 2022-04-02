@@ -1,0 +1,23 @@
+footer {
+    font-size: 23px;
+    position: relative;
+    width: 1800px;
+    height: 200px;
+    padding: 50px;
+    top: 2300px;
+    background: #111;
+}
+
+footer .container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.container {
+    color: rgb(255, 255, 255);
+}
+
+.link ul li a {
+    color: rgb(255, 255, 255)
+}
